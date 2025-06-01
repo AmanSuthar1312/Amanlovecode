@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('/fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('/fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('/fonts/Dosis/doies.ttf');
+}
+
+html {
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-family: 'bebas';
+    font-size: 1.3vw;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#Hedding {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-family: "nemu";
+    color: rgb(42, 42, 42);
+    margin-bottom: 2%;
+}
+
+#ultradiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(/pics/test1back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#maindiv {
+    font-size: clamp(3rem, 8vw, 6rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 100%;
+    max-width: 60rem;
+    background-color: hsla(0, 0%, 0%, 0.149);
+    backdrop-filter: blur(40px);
+    border-top: 5px solid rgba(245, 245, 245, 0.09);
+    border-right: 5px solid rgba(245, 245, 245, 0.09);
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.238);
+    font-size: 4rem;
+}
+
+#h1tag {
+    font-family: "bebas";
+    margin-bottom: 2rem;
+    color: rgb(66, 66, 66);
+}
+
+#btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#btn button {
+    color: rgb(66, 66, 66);
+    font-family: "nemu";
+    background-color: rgba(40, 40, 40, 0.119);
+    backdrop-filter: blur(40px);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.238);
+    font-size: 3rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#btn button:hover {
+    transform: scale(1.1);
+}
+
+#return {
+    margin-top: 5rem;
+    background-color: rgba(79, 78, 78, 0.125);
+    backdrop-filter: blur(20px);
+    border-top: 5px solid rgba(250, 235, 215, 0.077);
+    border-right: 5px solid rgba(250, 235, 215, 0.077);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.196);
+}
+
+#return a {
+    padding: 1rem 3rem 1rem 3rem;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-size: 2rem;
+    font-family: "bebas";
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+#return a:hover {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #maindiv {
+        width: 90%;
+        height: auto;
+        padding: 2rem;
+        font-size: 2.5rem;
+    }
+
+    #Hedding {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #btn button {
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    #return a {
+        font-size: 1.5rem;
+        padding: 0.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #Hedding {
+        font-size: 6rem;
+    }
+
+    #maindiv {
+        font-size: 3rem;
+    }
+
+    #btn button {
+        font-size: 2.5rem;
+    }
+
+    #return a {
+        font-size: 1.8rem;
+    }
+}

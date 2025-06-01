@@ -1,0 +1,201 @@
+@font-face {
+  font-family: 'nemu';
+  src: url('/fonts/neue.ttf');
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: url('/fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/fonts/Dosis/doies.ttf');
+}
+html{
+  scroll-behavior: smooth;
+}
+html, body {
+  height: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-snap-align: start;
+  height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+/* navigation bar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 3rem;
+
+  display: flex;          
+  justify-content: center;  
+  align-items: center;       
+}
+
+.navbar ul {
+  display: flex;
+  gap: 9vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  font-family: 'bebas'; 
+  font-size: 1.3vw;
+}
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* welcome text styles */
+.Welcomediv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/pics/mainbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: rgb(120, 120, 120);
+    padding: 2rem;
+    margin-bottom: 0%;
+}
+
+.Welcomediv h1 {
+    font-size: 10vw; 
+    font-family: 'bebas';
+    margin: 0;
+}
+
+.Welcomediv h3 {
+    font-size: 2.5vw;
+    font-family: 'Dosis';
+    margin-top: 1rem;
+}
+#welsection{
+  padding-top: 2rem;
+}
+#downarrow1{
+  padding-top: 3vw;
+  height: 7vw;
+}
+.serviceexp{
+    background-color: rgb(35, 35, 35);
+    height: 100vh;
+    margin-top: 0%;
+}
+#H2as{
+  margin-top: 15vw;
+  margin-left: 1vw;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+  font-family: 'Dosis';
+}
+#Aboutusimg{
+  margin-left: 5vw;
+  height: 4vw;
+}
+#Aboutuspara {
+  font-size: 2.5vw;
+  font-family: 'Dosis';
+  color: white;
+  padding: 2vw 10vw;
+  text-align: justify;
+}
+
+#containerabut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#Amansuthar {
+  margin-right: 5vw;
+}
+#footersection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/pics/blacksand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgba(240, 255, 255, 0.149);
+  border-left: 2px solid rgba(240, 255, 255, 0.149);
+  border-radius: 15px;
+  width: 90vw;
+  height: 20vw;
+  background-color: rgba(243, 232, 232, 0.027);
+  backdrop-filter: blur(12px);
+  box-shadow: 40px 50px rgba(0, 0, 0, 0.197);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1rem;
+}
+
+#footer h1 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(137, 137, 137);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+/* Style the UL list */
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+#footer ul li {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+#footer ul li a {
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  font-weight: bold;
+}
+#footer a:hover{
+  color: rgb(16, 16, 16);
+}
+.socialicons{
+  height: 15px;
+}

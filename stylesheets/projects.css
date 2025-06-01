@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'nemu';
+  src: url('/fonts/neue.ttf');
+}
+
+@font-face {
+  font-family: 'bebas';
+  src: url('/fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+  font-family: 'Dosis';
+  src: url('/fonts/Dosis/doies.ttf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* navbar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  height: 3rem;
+  display: flex;          
+  justify-content: center;  
+  align-items: center;       
+}
+
+.navbar ul {
+  display: flex;
+  gap: 9vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  font-family: 'bebas'; 
+  font-size: 1.3vw;
+}
+.navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+/* projects cards */
+#parentdiv1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 7rem;
+    padding: 7rem 5rem;
+    background-image: url(/pics/mainbackground.jpg);
+}
+#parentdiv1 div h1{
+    color: rgb(184, 182, 182);
+    font-size: 4rem;
+    font-family: "nemu";
+    padding-bottom: 2vw;
+}
+#parentdiv1 .div1child {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;  
+    backdrop-filter: blur(15px);
+    border: 10px solid rgba(58, 58, 58, 0.022);
+    padding: 2vw;
+    border-radius: 15px;
+    max-width: 25rem;
+    width: 100%;
+}
+
+#parentdiv1 div p {
+    font-family: 'Dosis';
+    color: rgb(101, 100, 100);
+    font-size: 1.5rem;
+    line-height: 1.6;
+    flex-grow: 1;             
+    margin-bottom: 2rem;       
+}
+
+#parentdiv1 div a {
+    font-size: 2rem;
+    font-family: 'bebas';
+    color: rgb(123, 122, 122);
+    text-decoration: none;
+    backdrop-filter: blur(20px);
+    border: 5px solid rgba(48, 48, 48, 0.123);
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.077);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    align-self: flex-start;
+    transition: color 0.3s ease;
+}
+#parentdiv1 div{
+    transition: transform 0.3s ease;
+}
+#parentdiv1 div:hover{
+    transform: scale(1.2);
+}
+#parentdiv1 div a:hover{
+   color:rgb(51, 51, 51);
+}
