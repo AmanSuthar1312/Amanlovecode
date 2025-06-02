@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'nemu';
-  src: url('/fonts/neue.ttf');
+  src: url('../fonts/neue.ttf');
 }
 
 @font-face {
   font-family: 'bebas';
-  src: url('/fonts/Bebas_Neue/beies2.ttf');
+  src: url('../fonts/Bebas_Neue/beies2.ttf');
 }
 
 @font-face {
   font-family: 'Dosis';
-  src: url('/fonts/Dosis/doies.ttf');
+  src: url('../fonts/Dosis/doies.ttf');
 }
 
 *{
@@ -61,7 +61,7 @@ html{
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 7rem;
     padding: 7rem 5rem;
-    background-image: url(/pics/mainbackground.jpg);
+    background-image: url(../pics/mainbackground.jpg);
 }
 #parentdiv1 div h1{
     color: rgb(184, 182, 182);
