@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'nemu';
-  src: url('/fonts/neue.ttf');
+  src: url('../fonts/neue.ttf');
 }
 
 @font-face {
   font-family: 'bebas';
-  src: url('/fonts/Bebas_Neue/beies2.ttf');
+  src: url('../fonts/Bebas_Neue/beies2.ttf');
 }
 
 @font-face {
   font-family: 'Dosis';
-  src: url('/fonts/Dosis/doies.ttf');
+  src: url('../fonts/Dosis/doies.ttf');
 }
 html{
   scroll-behavior: smooth;
