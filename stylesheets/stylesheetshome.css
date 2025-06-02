@@ -74,7 +74,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/pics/mainbackground.jpg);
+    background-image: url("../pics/mainbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -140,7 +140,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/pics/blacksand.jpg);
+  background-image: url("../pics/blacksand.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
