@@ -51,7 +51,7 @@ body {
     text-decoration: none;
     color: rgb(84, 84, 84);
     font-family: 'bebas';
-    font-size: 1.3vw;
+    font-size: clamp(20px, 2vw, 100px);
 }
 
 .navbar a:hover {

@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('../fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/doies.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    font-family: 'bebas';
+    font-size: clamp(20px,2vw,100px);
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0); 
+}
+
+#maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 95.3vh;
+    background-image: url("../pics/test3back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Inptexts{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+}
+
+#Inptexts label{
+    font-size: clamp(20px ,2vw ,100px);
+}
