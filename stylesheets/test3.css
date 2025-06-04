@@ -64,7 +64,7 @@ html {
     justify-content: center;
     align-items: center;
     height: auto;
-    min-height: 95.3vh;
+    min-height: 100vh;
     background-image: url("../pics/test3back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,11 +73,54 @@ html {
 #Inptexts{
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.088);
+    backdrop-filter: blur(15px);
+    border-top: 2px solid rgba(250, 235, 215, 0.374);
+    border-right: 2px solid rgba(250, 235, 215, 0.375);
+    box-shadow:  10px 10px 20px rgba(71, 70, 70, 0.449);
     height: auto;
     width: auto;
+    padding: 7em 9em;
+    border-radius: 5px;
 }
 
 #Inptexts label{
-    font-size: clamp(20px ,2vw ,100px);
+    padding: 10px;
+    font-size: clamp(20px ,1.7vw ,100px);
+    font-family: 'nemu';
+    color: rgb(187, 186, 185);
+}
+#Inptexts input{
+    text-align: center;
+    font-size: 1em;
+    font-family: "nemu";
+    color: antiquewhite;
+    background-color: rgba(93, 93, 93, 0.334);
+    border: none;
+    border-radius: 15px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#Answer{
+    color: rgb(173, 172, 172);
+    text-align: center;
+    font-family: 'Bebas';
+    background-color: rgba(93, 241, 192, 0.358);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+#submit{
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    background-color: rgba(46, 46, 223, 0.41);
+    border: none;
+    font-family: 'Dosis';
+    border-radius: 20px;
+    color: antiquewhite;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgba(46, 46, 223, 0.61);
+    color: rgb(232, 232, 232);
 }

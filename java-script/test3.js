@@ -1,33 +1,37 @@
-const min = 1;
-const max = 10;
+const minInput = document.getElementById("minvalue");
+const maxInput = document.getElementById("maxvalue");
+const guessInput = document.getElementById("guessinput");
+const Answer = document.getElementById("Answer");
 
-const Answer = Math.floor(Math.random() * (max - min + 1)) + min;
-console.log(Answer);
+let rand; 
+let gameStarted = false;
 
-let attempts = 0;
-let inp;
-let playing = true;
+document.getElementById("submit").onclick = function () {
+    const min = Number(minInput.value);
+    const max = Number(maxInput.value);
+    const guess = Number(guessInput.value);
 
-while (playing) {
-    inp = window.prompt("Enter a number between 1 and 10");
-    inp = Number(inp);
-
-    if (isNaN(inp)) {
-        window.alert("Enter a valid number");
-    }
-    else if (inp < min || inp > max) {
-        window.alert("Enter a number between 1 and 10")
-    }
-    else {
-        attempts++;
-        if (inp > Answer) {
-            window.alert("The number is too big. Try again!");
+    if (!gameStarted) {
+        if (isNaN(min) || isNaN(max) || min >= max) {
+            Answer.textContent = "Enter valid min and max (min < max)";
+            return;
         }
-        else if (inp < Answer) {
-            window.alert("The number is too small. Try again!");
-        }
-        else window.alert(`You guessed it right! The number was ${Answer}. It took you ${attempts} attempts.`);
-        playing = false;
-        }
+
+        rand = Math.floor(Math.random() * (max - min + 1)) + min;
+        console.log("Random number is:", rand); // For testing
+        gameStarted = true;
     }
 
+    if (isNaN(guess)) {
+        Answer.textContent = "Enter a valid guess number.";
+    } else if (guess < min || guess > max) {
+        Answer.textContent = `Guess must be between ${min} and ${max}`;
+    } else if (guess > rand) {
+        Answer.textContent = "Too high!";
+    } else if (guess < rand) {
+        Answer.textContent = "Too low!";
+    } else {
+        Answer.textContent = "🎉 Correct! You guessed it! 🎉";
+        gameStarted = false; 
+    }
+};
