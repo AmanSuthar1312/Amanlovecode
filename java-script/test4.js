@@ -15,7 +15,7 @@ Submit.onclick = function(){
     }
     else if (kel.checked){
         tempvalue = (temp + 273.15);
-        result.textContent = Number(tempvalue.toFixed(2)+"K");
+        result.textContent = (Number(tempvalue.toFixed(2))+"K");
     }
     else{
         result.textContent = ("Enter a Valid number");
