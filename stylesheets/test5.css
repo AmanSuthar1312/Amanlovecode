@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('../fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/doies.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pics/test5back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.127);
+    backdrop-filter: blur(5px);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(219, 216, 216);
+    font-family: 'bebas';
+    font-size: clamp(20px, 2vw, 100px);
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* 
+Styles of the program */
+#backdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+#container1 {
+    background-color: rgba(0, 0, 0, 0.158);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    border-top: 2px solid rgba(240, 248, 255, 0.389);
+    border-right: 2px solid rgba(240, 248, 255, 0.389);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.227);
+    text-align: center;
+    padding: 5em;
+    height: auto;
+}
+
+#container1 h1 {
+    font-family: 'nemu';
+    font-size: clamp(2rem, 8vw, 4rem);
+    color: hsl(0, 0%, 81%);
+}
+
+#container1 h3 {
+    color: azure;
+    font-family: "Dosis";
+    font-size: clamp(1rem, 3vw, 1.7rem);
+    padding: 1em;
+}
+
+#length label {
+    color: aliceblue;
+}
+
+#checkbox {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#checkbox input {
+    color: bisque;
+    background-color: black;
+    border: none;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#checkbox label {
+    color: antiquewhite;
+    font-size: clamp(1rem, 3vw, 1.7rem);
+    padding-right: 2em;
+    font-family: "Dosis";
+}
+
+#length input {
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.408);
+    border: none;
+    border-radius: 10px;
+    padding: 1em 8em;
+
+}
+
+#length label {
+    font-family: "Dosis";
+    font-size: clamp(1rem, 3vw, 1.7rem);
+}
+
+#mySubmit {
+    color: beige;
+    font-size: clamp(1rem, 3vw, 1.7rem);
+    background-color: rgba(0, 0, 0, 0.297);
+    padding: 1em 2em;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#mySubmit:hover {
+    background-color: rgba(0, 0, 0, 0.668);
+    padding: 0.9em 1.9em;
+}
