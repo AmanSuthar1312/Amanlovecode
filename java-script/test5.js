@@ -41,13 +41,13 @@ submit.onclick = function () {
     const passwordlength = Number(document.getElementById("Length").value);
 
     const password = generatepassword(passwordlength, incuppercase, inclowercase, incnumbers, incsymbols);
-
+    
     let result = document.getElementById("Result");
+
+    if (passwordlength <= 0) {
+        result.textContent = "Enter a value greater than 0";
+        return;
+    }
 
     result.textContent = (`Your password: ${password}`)
 }
-
-
-
-
-
