@@ -58,3 +58,79 @@ html {
 .navbar a:hover {
     color: rgb(0, 0, 0);
 }
+
+#container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.093);
+    backdrop-filter: blur(3px);
+    border-top: 2px solid rgba(250, 235, 215, 0.366);
+    border-right: 2px solid rgba(250, 235, 215, 0.366);
+    padding: 10vw;
+    height: auto;
+    width: auto;
+    max-height: 60vh;
+    max-width: 90vw;
+    border-radius: 20px;
+
+}
+
+#fatherdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../pics/test4back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    min-height: 100vh;
+}
+
+#radio{
+    color: rgb(55, 55, 55);
+    font-size: clamp(10px,5rem,20px);
+    font-family: "Dosis";
+    font-weight: bold;
+    margin: 2vh;
+}
+
+#container1 h1{
+    color: rgb(162, 100, 100);
+    font-family: 'nemu';
+    font-size: clamp(10px , 4rem , 40px);
+}
+#tempvalue{
+    color: rgb(53, 36, 36);
+    font-family: 'dosis';
+    font-size: clamp(5px,2rem, 20px);
+    
+}
+#Temp{
+    font-size: clamp(10px,2rem,15px);
+    margin-top: 1vh;
+    text-align: center;
+    font-family: "nemu";
+    background-color: rgba(0, 0, 0, 0.303);
+    border: none;
+    border-radius: 5px;
+}
+
+#mySubmit{
+    color: black;
+    font-size: clamp(10px,2vh,25px);
+    background-color: rgba(0, 0, 0, 0.197);
+    backdrop-filter: blur(0px);
+    border: none;
+    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+#mySubmit:hover{
+    background-color: rgba(0, 0, 0, 0.307);
+    cursor: pointer;
+}
+
