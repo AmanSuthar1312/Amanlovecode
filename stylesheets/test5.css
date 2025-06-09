@@ -137,7 +137,7 @@ Styles of the program */
 }
 
 #mySubmit {
-    color: beige;
+    color: rgb(243, 243, 217);
     font-size: clamp(1rem, 3vw, 1.7rem);
     background-color: rgba(0, 0, 0, 0.297);
     padding: 1em 2em;
