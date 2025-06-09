@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('../fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/doies.ttf');
+}
+@font-face {
+    font-family: 'quota';
+    src: url(../fonts/quotsfont.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pics/test6back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.038);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-family: 'bebas';
+    font-size: clamp(20px, 2vw, 100px);
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0); 
+}
+
+#container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 96vh;
+}
+
+#case1{
+    background-color: rgba(0, 0, 0, 0.077);
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6vw;
+    border-radius: 25px;
+
+}
+
+#mysubmit{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.172);
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    margin-bottom: 4rem;
+    font-size: clamp(3px,1rem,2vw);
+    font-family: 'nemu';
+    cursor: pointer;
+}
+
+#mysubmit:hover{
+    color: rgba(86, 86, 86, 0.612);
+    background-color: rgba(0, 0, 0, 0.388);
+}
+
+#quotes{
+    font-family: 'quota';
+    color: rgb(250, 230, 204);
+}
