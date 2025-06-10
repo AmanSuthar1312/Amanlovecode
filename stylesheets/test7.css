@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('../fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/doies.ttf');
+}
+
+@font-face {
+    font-family: 'quota';
+    src: url(../fonts/quotsfont.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pics/test7back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.038);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-family: 'bebas';
+    font-size: clamp(20px, 2vw, 100px);
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 100vh;
+}
+
+#case {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.181);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 5rem;
+}
+
+.action {
+    height: 2rem;
+}
+
+.btns {
+    transition: transform 0.3s ease;
+}
+
+.btns:hover {
+    transform: scale(1.1);
+}
+
+#case button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 6vw;
+    margin-left: 6vw;
+    padding: 1rem 2rem;
+
+}
+
+#case button:hover {
+    background-color: rgba(0, 0, 0, 0.114);
+    border-radius: 5px;
+}
+
+#computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.181);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 5rem 18.7rem;
+    font-family: "Dosis";
+}
+
+#compmoves {
+    padding-top: 2rem;
+    font-size: 1rem;
+    color: antiquewhite;
+    font-family: 'nemu';
+}
+
+#compmoves img {
+    width: 2rem;
+    height: auto;
+    margin: 2rem;
+    transition: transform 0.3s ease;
+}
+
+#compmoves img:hover {
+    transform: scale(1.1);
+
+}
+
+#result {
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-family: "nemu";
+}
+
+#container1 h1 {
+    font-family: "nemu";
+    font-size: 2rem;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.066);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
