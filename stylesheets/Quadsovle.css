@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('../fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/doies.ttf');
+}
+@font-face {
+    font-family: 'quota';
+    src: url(../fonts/quotsfont.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pics/quadsolv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.038);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-family: 'bebas';
+    font-size: clamp(20px, 2vw, 100px);
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0); 
+}
+
+#container1{
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#box1{
+    background-color: rgba(0, 0, 0, 0.13);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    border-top: 2px solid rgba(255, 235, 205, 0.144);
+    border-right: 2px solid rgba(255, 235, 205, 0.144);
+    box-shadow: 10px 10px 15px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+}
+
+#box1 h2{
+    padding-bottom: 2rem;
+    font-family: 'nemu';
+    font-size: clamp(13px 5rem 30px);
+    color: antiquewhite;
+
+}
+
+#box1 label{
+    color: antiquewhite;
+    font-family: 'Dosis';
+    font-weight: bold;
+}
+
+#box1 input{
+    background-color: rgba(0, 0, 0, 0.397);
+    border: none;
+    border-radius: 5px;
+    font-family: 'nemu';
+    font-size: 1.1rem;
+    color: antiquewhite;
+    margin-right: 1rem;
+
+}
+
+#box1 button{
+    border: none;
+    background-color: black;
+    font-family: "Dosis";
+    padding: 0.4rem 1.7rem;
+    color: antiquewhite;
+    border-radius: 15px;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: transform  0.3s ease-in-out;
+}
+
+#box1 button:hover{
+    color: rgb(148, 138, 126);
+    transform: scale(1.2);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.37);
+}
+
+#Answers{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 3vw 5vw;
+    color: antiquewhite;
+    background-color: rgba(9, 9, 110, 0.103);
+}
