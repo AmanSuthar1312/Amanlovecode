@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'nemu';
+    src: url('../fonts/neue.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas_Neue/beies2.ttf');
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('../fonts/Dosis/doies.ttf');
+}
+
+@font-face {
+    font-family: 'quota';
+    src: url(../fonts/quotsfont.ttf);
+}
+@font-face {
+    font-family: 'Roketto';
+    src: url(../fonts/OpenType-TT/Roketto.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../pics/animeBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.038);
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 9vw;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-family: 'bebas';
+    font-size: clamp(20px, 2vw, 100px);
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0,40%);
+}
+
+#clockContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    min-width: 65vw;
+    background-color: hsl(0, 0%, 0%,30%);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border-top: 2px solid hsl(208, 100%, 97%,20%);
+    border-right: 2px solid hsl(208, 100%, 97%,20%);
+    padding: 2vh 10vw;
+}
+
+#timeDisplay{
+    font-size: clamp(16px,2.5rem,40px);
+    font-family: "Roketto";
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 91%);
+}
+
+#btnContainer button{
+    background-color: hsla(0, 0%, 0%,20%);
+    color: antiquewhite;
+    border: none;
+    border-radius: 6px;
+    padding: 0.2rem 0.6rem;
+    font-size: clamp(16px,1.2rem,40px);
+    font-family: "nemu";
+    margin-right: 0.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out,transform 0.2s ease-in-out;
+}
+
+#btnContainer button:hover{
+    background-color: rgba(0, 0, 0, 40%);
+    transform: scale(1.2);
+}
