@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/Calculator.css">
+    <link rel="shortcut icon" href="../pics/icons/calculator.png" type="image/x-icon">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul id="navlist">
+            <li><a href="projecthub.html">Home</a></li>
+            <li><a href="projects.html">Porjects</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">others</a></li>
+        </ul>
+    </nav>
+    <div id="calContainer">
+        
+        <input type="text" id="displayWindow">
+        
+        <div id="calBtns">
+            <button onclick="displayAppend('+')" class="oprs">+</button>
+            <button onclick="displayAppend('7')">7</button>
+            <button onclick="displayAppend('8')">8</button>
+            <button onclick="displayAppend('9')">9</button>
+            <button onclick="displayAppend('*')" class="oprs">x</button>
+            <button onclick="displayAppend('4')">4</button>
+            <button onclick="displayAppend('5')">5</button>
+            <button onclick="displayAppend('6')">6</button>
+            <button onclick="displayAppend('/')" class="oprs">÷</button>
+            <button onclick="displayAppend('1')">1</button>
+            <button onclick="displayAppend('2')">2</button>
+            <button onclick="displayAppend('3')">3</button>
+            <button onclick="displayAppend('-')" class="oprs">-</button>
+            <button onclick="backSpace()" class="oprs">&#x232B;</button>
+            <button onclick="displayAppend('0')">0</button>
+            <button onclick="result()" class="oprs">=</button>
+
+        </div>
+    </div>
+    <script src="../java-script/Calculator.js"></script>
+</body>
+</html>
