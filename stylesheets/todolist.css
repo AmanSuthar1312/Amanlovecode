@@ -2,38 +2,40 @@
     font-family: 'nemu';
     src: url('../fonts/neue.ttf');
 }
-
 @font-face {
     font-family: 'bebas';
     src: url('../fonts/Bebas_Neue/beies2.ttf');
 }
-
 @font-face {
     font-family: 'Dosis';
     src: url('../fonts/Dosis/doies.ttf');
 }
-
 @font-face {
     font-family: 'quota';
-    src: url(../fonts/quotsfont.ttf);
+    src: url('../fonts/quotsfont.ttf');
 }
 
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 html {
     scroll-behavior: smooth;
 }
 
-/* navbar styles */
+body {
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    background-image: url(../pics/noteswithflower.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
 .navbar {
     position: sticky;
     top: 0;
@@ -49,8 +51,6 @@ html {
     display: flex;
     gap: 9vw;
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar a {
@@ -64,64 +64,97 @@ html {
     color: rgb(0, 0, 0);
 }
 
-#container1 {
-    display: flex;
-    justify-content: center;
 
-    height: auto;
-    min-height: 92vh;
-    background-color: aquamarine;
+#Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh - 3rem); 
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
-#TaskEdit {
+
+#addTaskContainer {
+    background-color: hsla(0, 0%, 0%, 27%);
+    padding: 2rem;
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 400px;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 8rem 7rem;
-    background-color: tomato;
-    margin-right: 10vw;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-
+    gap: 1rem;
 }
 
-#Tasklist {
+#addTaskContainer input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Dosis';
+    background-color: hsl(0, 0%, 0%,40%);
+    color: antiquewhite;
+}
+
+#addTaskContainer button {
+    padding: 0.5rem 1rem;
+    background-color: hsla(0, 0%, 0%, 0.40);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'bebas';
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#addTaskContainer label{
+    color: antiquewhite;
+}
+
+#addTaskContainer button:hover {
+    transform: scale(1.2);
+    color: rgb(130, 130, 130);
+}
+
+/* Task List Panel */
+#taskListContainer {
+    background-color: rgb(0, 0, 0, 27%);
+    padding: 2rem;
+    border-radius: 15px;
+    min-width: 300px;
+    max-width: 600px;
+    flex: 1;
     display: flex;
-    padding-left: 2rem;
-    padding-top: 4rem;
-    padding-right: 5rem;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    background-color: tomato;
-    
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
 }
 
-#Etrlab {
-    color: bisque;
-    font-family: "Dosis";
-    font-size: clamp(2vw, 3rem, 40px);
-    font-weight: bold;
+#taskListContainer ul {
+    list-style: none;
+    width: 100%;
 }
 
-#AddTask {
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    border: none;
-    background-color: black;
-    color: bisque;
-    font-family: "nemu";
-    margin-top: 2rem;
+#taskListContainer li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgb(0, 0, 0, 60%);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'Dosis';
+    margin-bottom: 0.5rem;
+    color: antiquewhite;
 }
 
-#Task {
-    padding: 0.8rem 4rem;
-    border-radius: 10px;
-    border: none;
-    background-color: black;
-    color: bisque;
-    font-family: "Dosis";
-    font-size: clamp(2vw 1rem 40px);
-    text-align: center;
-    margin-top: 0.6rem;
+
+.completed {
+    text-decoration: line-through;
+    color: rgb(82, 82, 82);
 }
