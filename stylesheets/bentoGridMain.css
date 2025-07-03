@@ -1,50 +1,295 @@
-.dashboard {
+@font-face {
+    font-family: 'Italic';
+    src: url(../fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: 'DMsans';
+    src: url(../fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/static/DMSans-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: hsl(0, 0%, 10%);
+}
+/* this is the grid container */
+#gridContainer {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 20px;
-  padding: 40px;
+  padding: 2rem 4rem;
 }
 
-.card {
-  background: white;
-  border-radius: 16px;
-  padding: 24px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+/* First card in grid */
+#createPostBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 10px;
+    grid-column:1 / span 3;
+    grid-row: span 2;
+    padding: 0.8rem;
+
+}
+#createPostBox p{
+    font-size: 2.5rem;
+    line-height: 2.1rem;
+    margin-bottom: 0;
+    font-family: 'DMsans';
+    font-weight: 500;
+    margin-top: 0;
+
+}
+#createPostBox h3{
+    font-family: 'Italic';
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: hsl(256, 67%, 59%);
+    margin: 0;
+}
+#createPostBox img{
+    height: auto;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
-
-.create-post { 
-    grid-column: span 2;
-    grid-row: span 5;
-    background-color: aquamarine; 
+#createPostBox div{
+    display: inline;
 }
-.main-highlight { 
-    grid-column: span 4;
+/* second card in grid */
+#socialMediaBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 10px;
+    grid-column:4 / span 6;
+    grid-row: span 2;
+    padding: 0.8rem;
+}
+
+#socialMediaBox p{
+    font-size:3rem;
+    display: inline;
+    font-family: 'DMsans';
+    margin: 1vh;
+    font-weight: 500;
+    color: antiquewhite;
+}
+#socialMediaBox h3{
+    font-size: 3rem;
+    display: inline;
+    font-family: 'regular';
+    color: hsl(39, 100%, 71%);
+    font-weight: 490;
+}
+
+#socialMediaBox img{
+    width: 10rem;
+}
+
+#socialMediaBox div{
+    margin: 0;
+}
+
+#socialMediaBox h4{
+    font-size: 0.8rem;
+    color: rgb(187, 187, 187);
+}
+
+/* third card in grid */
+#scheduleMediaBox{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(254, 88%, 90%);
+    border-radius: 10px;
+    grid-column:10/ span 3;
     grid-row: span 3;
-    background-color: rgb(10, 40, 40); 
+    padding: 0.8rem;
+    padding-left: 1rem;
+    overflow: hidden;
 }
-.best-time { 
-    grid-column: span 2;
-    grid-row: span 7;
-    background-color: blue; 
+
+#scheduleMediaBox p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'DMsans';
+    color: rgb(24, 24, 24);
+    padding-left: 1.1rem;
 }
-.write-ai { 
-    grid-column: span 1;
-    background-color: yellowgreen; 
+
+#scheduleMediaBox h4{
+    font-family: 'DMsans';
+    font-size: 0.99rem;
+    font-weight: 400;
+    padding-left: 1.1rem;
+    color: rgb(118, 118, 118);
 }
-.multi-accounts { 
-    grid-column: span 1; 
-    background-color: yellow;
+
+#scheduleMediaBox img{
+    height: auto;
+    width: 25rem;
+    padding-left: 1.1rem;
 }
-.schedule { 
-    grid-column: span 1; 
-    background-color: teal;
+
+#scheduleMediaBox div{
+    margin-left: 0;
 }
-.growth { 
-    grid-column: span 2; 
-    background-color: blueviolet;
+
+/* Forth card in grid */
+#writeUsingAI{
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 10px;
+    grid-column: 1 / span 3;
+    grid-row: span 3;
+    padding: 0.8rem;
+    overflow: hidden;
 }
-.stats { 
-    grid-column: span 1; 
-    background-color: violet;
+
+#writeUsingAI p{
+    font-size: 2.3rem;
+    font-family: 'regular';
+    font-weight: 700;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
 }
+
+
+#writeUsingAI img{
+    height: auto;
+    width: 17rem;
+}
+
+/* Five card in grid */
+#manageMultipleBox{
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 10px;
+    grid-column:4/ span 3;
+    grid-row: span 1;
+    padding: 0.8rem;
+    overflow: hidden;
+}
+
+#manageMultipleBox p{
+    font-family: 'DMsans';
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.996rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: rgb(49, 49, 49);
+}
+
+#manageMultipleBox img{
+    height: auto;
+    width: 20rem;
+}
+
+/* Sixth card in grid */
+#fiftySixPerBox{
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 10px;
+    grid-column:4/ span 3;
+    grid-row: span 1;
+    padding: 0.8rem;
+}
+
+#fiftySixPerBox p {
+    color: rgb(127, 127, 127);
+    font-family: 'DMsans';
+    padding-left: 2rem;
+    margin-top: 0.2rem;
+    
+}
+
+#fiftySixPerBox h2{
+    color:rgb(40, 40, 40);
+    font-size: 4rem;
+    font-family: 'regular';
+    font-weight: 800;
+    margin: 0;
+    
+}
+
+
+#fiftySixPerBox img{
+    height: 80px;
+    padding-left: 0.8rem;
+}
+
+
+/* Seventh card in grid */
+#maintainMultiplebox {
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 10px;
+  grid-column: 7 / span 3;
+  grid-row: span 1;
+  padding: 0.8rem;
+  overflow: hidden;
+  position: relative; /* Necessary for absolute child */
+}
+
+#maintainMultiplebox p {
+  font-size: 1.9rem;
+  font-family: 'regular';
+  font-weight: 800;
+  line-height: 2rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0;
+  position: relative; 
+}
+
+#maintainMultiplebox img {
+  position: absolute;
+  bottom: -1;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 17rem;
+  height: auto;
+  margin: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+/* Eight card in grid */
+#growFollowersBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(256, 67%, 59%);
+    border-radius: 10px;
+    grid-column:7 / span 6;
+    grid-row: span 2;
+    padding: 0.8rem;
+}
+
+#growFollowersBox p{
+    font-size: 3rem;
+    color: antiquewhite;
+    font-family: 'DMsans';
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+#growFollowersBox img{
+    height: auto;
+    width: 14rem;
+}
+
+
+
+
