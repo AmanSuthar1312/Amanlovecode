@@ -1,0 +1,141 @@
+
+@font-face {
+    font-family: "DMSans";
+    src: url(../fonts/static/DMSans-Regular.ttf);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url(../fonts/static/DMSans-Medium.ttf);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DMSans";
+    src: url(../fonts/static/DMSans-MediumItalic.ttf);
+    font-display: swap;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "DMSans", sans-serif;
+    color: antiquewhite;
+}
+
+
+#linksCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin: 1rem;
+}
+
+
+#linksCard h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.5rem 0;
+    color: inherit;
+}
+
+#linksCard h4 {
+    color: hsl(75, 94%, 57%);
+    margin: 0 0 1.5rem 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#linksCard p {
+    margin: 0 0 1.5rem 0;
+    font-size: 0.8rem;
+    color: rgb(197, 197, 197);
+}
+
+
+#ImageContainer {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#profilePhoto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#sociaLinks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+}
+
+.link {
+    background-color: hsl(0, 0%, 20%);
+    color: inherit;
+    font-family: inherit;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8rem;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.link a{
+    text-decoration: none;
+    color: inherit;
+}
+.link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    transform: translateY(-1px);
+}
+
+.link:focus {
+    outline: 2px solid hsl(75, 94%, 57%);
+    outline-offset: 2px;
+}
+
+.link:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 350px) {
+    #linksCard {
+        padding: 1.5rem;
+        margin: 1rem;
+        max-width: 80vw;
+    }
+    
+    .link {
+        padding: 0.7rem;
+    }
+}
