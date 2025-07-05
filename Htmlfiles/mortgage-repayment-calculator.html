@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+  <link rel="stylesheet" href="../stylesheets/mortgage-calculator.css" />
+  
+  <title>Frontend Mentor | Mortgage Repayment Calculator</title>
+</head>
+<body>
+
+  <div id="cardsContainer">
+
+    <form id="emiCalculator">
+      
+      <div id="CalculatorHeading">
+        <p>Mortgage Calculator</p>   
+        <button type="reset">Clear All</button>
+      </div>
+      
+      <!-- Mortgage Amount -->
+      <label for="emiAmount" id="emiAmountLabel">Mortgage Amount</label>
+      <div id="emiAmountDiv">
+        <input type="text" id="emiAmount" placeholder=" " required />
+        <p class="rupeesign">₹</p>
+        <h6 class="feildEmpty"></h6>
+      </div>
+        
+      <!-- Term and Interest Rate -->
+      <div id="emiTimeintrestrate">
+        <div>
+          <label for="emiTime">Mortgage Term</label>
+          <div id="timeinputdiv">
+            
+            <input type="text" id="emiTime" placeholder="" required />
+            <p class="emiTime">Years</p>
+            <h6 class="feildEmpty"></h6>
+          </div>
+        </div>
+
+        <div>
+          <label for="interestRate">Interest Rate</label>
+          <div id="interestRatediv">
+            <input type="text" id="interestRate" placeholder="" required />
+            <p class="persign">%</p>  
+            <h6 class="feildEmpty"></h6>
+          </div>
+          
+        </div>
+      </div>
+
+      <!-- Repayment Type -->
+      <fieldset id="emiTypeRadioBtn">
+        <legend>Repayment Type</legend>
+
+        <div>
+          <input type="radio" id="repayment" name="repaymenttype" required />
+          <label for="repayment">Repayment</label>
+        </div>
+
+        <div>
+          <input type="radio" id="interestOnly" name="repaymenttype" />
+          <label for="interestOnly">Interest Only</label>
+        </div>
+        
+      </fieldset>
+
+      <button id="submit" type="button" onclick="CalculateEMI()">Calculate Mortgage</button>
+    </form>
+
+    <!-- Display Section -->
+    <div id="emiDisplay">
+      <div>
+        <h2 id="Monthlyandintrust">Monthly Repayment</h2>
+        <h1 id="repaymentValue">--</h1>
+        <h5>Total Repayment over the term</h5>
+        <h5 id="totalRepayment">--</h5>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+  <script src="../java-script/mortgagePayment.js"></script>
+</html>

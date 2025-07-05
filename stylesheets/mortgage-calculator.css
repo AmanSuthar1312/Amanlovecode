@@ -1,0 +1,224 @@
+/* Font Faces */
+@font-face {
+  font-family: 'plusjakarta-italic';
+  src: url(../fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'plusjakarta-variable';
+  src: url(../fonts/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'staticmedium';
+  src: url(../fonts/static/DMSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'staticmeditalic';
+  src: url(../fonts/static/DMSans-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: 'staticregular';
+  src: url(../fonts/static/DMSans-Regular.ttf);
+}
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(202, 86%, 94%);
+  height: 100vh;
+  font-family: 'staticregular', sans-serif;
+}
+
+/* Cards Container */
+#cardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#emiCalculator{
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#CalculatorHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-bottom: 1.5rem;
+}
+
+#CalculatorHeading p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: rgb(0, 65, 0);
+  font-weight: 600;
+}
+
+#CalculatorHeading button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(149, 149, 149);
+  margin: 0;   
+  padding: 0;    
+}
+
+#CalculatorHeading button:hover {
+  color: black;
+}
+
+#emiAmountDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#emiAmountDiv p{
+    font-size: 0.9rem;
+    padding: 0.23rem 0.5rem;
+    border: 1px solid black;
+    border-left: none;
+    background-color: rgb(149, 149, 149);
+}
+
+
+#emiAmountLabel{
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: grey;
+
+}
+
+#emiAmountDiv input{
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0;
+    border: 1px solid black;
+}
+
+#emiTimeintrestrate{
+    display: flex;
+    justify-content: space-between;
+}
+
+#timeinputdiv{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#timeinputdiv input{
+    width: 4rem;
+    padding: 0.6rem;
+    border: 0.67px solid black;
+}
+
+#timeinputdiv p{
+    border: 0.67px solid rgb(59, 59, 59);
+    padding: 0.51rem;
+    border-left: none;
+    background-color: rgb(149, 149, 149);
+    
+}
+
+#interestRatediv{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#interestRatediv input{
+    width: 4rem;
+    padding: 0.6rem;
+    border: 1px solid rgb(59,59,59);
+}
+
+
+#interestRatediv p{
+    border: 0.67px solid rgb(59, 59, 59);
+    padding: 0.51rem;
+    border-left: none;
+    background-color: rgb(149, 149, 149);
+    
+}
+
+#emiTypeRadioBtn{
+    margin-bottom: 0.7rem;
+}
+
+#submit{
+    padding: 0.8rem 3rem;
+    border: none;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    margin-bottom: 0;
+
+}
+#submit:hover{
+    background-color: rgb(127, 145, 91) ;
+}
+
+
+
+#emiDisplay{
+    background-color: hsl(202, 55%, 16%);
+    padding: 2rem;
+    border-top-left-radius: 20px;
+    min-height: 22.2rem;
+    
+}
+
+#emiDisplay div{
+    border: 2px solid aliceblue;
+    padding: 2rem;
+    border-radius: 16px;
+
+}
+
+#emiDisplay h2{
+    color: antiquewhite;
+    font-family: 'plusjakarta-variable';
+    
+}
+
+#emiDisplay h1{
+    color: yellowgreen;
+    font-family: 'staticmedium';
+    border-radius: 14px;
+    
+}
+
+
+
+#emiDisplay h5{
+    color: hsl(0, 0%, 71%);
+    font-family: 'pulsjakarta-variable';
+}
+
+
+
+@media (max-width: 720px) {
+  #cardsContainer{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+  }
+
+  #emiCalculator{
+    border-top-right-radius: 20px;
+  }
+}
