@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(../fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: rgb(243, 243, 243);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    gap: 2rem;
+}
+
+
+.card-display {
+    position: relative;
+    width: 40%;
+    height: 100vh;
+}
+
+.gradient-box {
+    background-image: url(../pics/Backgrounds/bg-main-desktop.png);
+    background-size: cover;
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.card {
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    width: min(26rem, 90%); 
+    height: auto; 
+    aspect-ratio: 1.7; 
+    padding: min(1.5rem, 3vw); 
+    color: white;
+}
+
+.card-front {
+    top: 10%;
+    left: 8%;
+    background-image: url(../pics/Illestrative_Items/bg-card-front.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-back {
+    top: 55%;
+    left: 25%;
+    background-image: url(../pics/Illestrative_Items/bg-card-back.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Card Content Adjustments */
+.card-logo {
+    width: min(100px, 20%); 
+    height: auto;
+    margin-bottom: auto;
+}
+
+.card-number {
+    font-size: clamp(1rem, 4vw, 1.8rem); 
+    letter-spacing: 2px;
+    margin: 1rem 0;
+}
+
+.cvc-number {
+    margin-right: min(2rem, 10%);
+    font-size: clamp(0.8rem, 3vw, 1rem);
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Form Section */
+.form-container {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.form-group input {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.date-inputs {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.date-inputs input {
+    width: 4rem;
+}
+
+.submit-btn {
+    background-color: #220930;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #3b0d5e;
+}
+

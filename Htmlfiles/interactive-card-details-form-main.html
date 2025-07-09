@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="../stylesheets/interactive-card-details-form.css">
+  <title>Interactive Card Details Form</title>
+</head>
+<body>
+  <div class="container">
+    <div class="gradient-box"></div>
+    <div class="card-display">
+      
+      
+      <div class="card card-front">
+        <img src="../pics/Illestrative_Items/card-logo.svg" alt="Card logo" class="card-logo">
+
+        <h2 class="card-number">0000 0000 0000 0000</h2>
+
+        <div class="card-footer">
+          <h5 class="card-holder">Karlo Karlson</h5>
+          <p class="exp-date">00/00</p>
+        </div>
+
+      </div>
+
+      <div class="card card-back">
+        <p class="cvc-number">000</p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form class="card-form">
+        <div class="form-group">
+          <label for="cardholder-name">CARDHOLDER NAME</label>
+          <input type="text" id="cardholder-name" placeholder="e.g. Karlo Karlson" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="card-number">CARD NUMBER</label>
+          <input type="text" id="card-number" placeholder="e.g. 1234 5678 9123 0000" required>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label>EXP. DATE (MM/YY)</label>
+            <div class="date-inputs">
+              <input type="text" placeholder="MM" id="MM" required>
+              <input type="text" placeholder="YY" id="YY" required>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="cvc">CVC</label>
+            <input type="text" id="cvc" placeholder="e.g. 123" required>
+          </div>
+        </div>
+        
+        <button type="submit" class="submit-btn" onclick="displaydetails()">Confirm</button>
+      </form>
+    </div>
+  </div>
+  <script src="../java-script/interactive-card-details.js"></script>
+</body>
+  
+</html>
