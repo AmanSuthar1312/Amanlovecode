@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  hsl(226, 43%, 10%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+.Grid_Container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(12,6 vw);
+    gap: 1rem;
+    
+}
+
+#namecard{
+    background-color: aliceblue;
+    grid-column: 1/span 3;
+    grid-row: span 32;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#work{
+    background-color: rgb(70, 156, 135);
+    grid-column: span 3;
+    grid-row: span 16;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#play{
+    background-color: rgb(42, 39, 156);
+    grid-column: span 3;
+    grid-row: span 16;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#study{
+    background-color: rgb(125, 68, 141);
+    grid-column: span 3;
+    grid-row: span 16;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exersise{
+    background-color: rgb(126, 255, 180);
+    grid-column: span 3;
+    grid-row: span 16;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Social{
+    background-color: rgb(140, 201, 255);
+    grid-column: span 3;
+    grid-row: span 16;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#self_Care{
+    background-color: rgb(173, 255, 167);
+    grid-column: span 3;
+    grid-row: span 16;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

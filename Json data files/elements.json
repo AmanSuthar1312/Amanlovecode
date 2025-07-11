@@ -1,0 +1,1008 @@
+[
+  {
+    "symbol": "H",
+    "atomicNumber": 1,
+    "fullName": "Hydrogen",
+    "atomicWeight": 1.008,
+    "groundStateConfig": "1s1",
+    "firstIonizationEnergy": 1312.0
+  },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  {
+    "symbol": "He",
+    "atomicNumber": 2,
+    "fullName": "Helium",
+    "atomicWeight": 4.0026,
+    "groundStateConfig": "1s2",
+    "firstIonizationEnergy": 2372.3
+  },
+  {
+    "symbol": "Li",
+    "atomicNumber": 3,
+    "fullName": "Lithium",
+    "atomicWeight": 6.94,
+    "groundStateConfig": "[He] 2s1",
+    "firstIonizationEnergy": 520.2
+  },
+  {
+    "symbol": "Be",
+    "atomicNumber": 4,
+    "fullName": "Beryllium",
+    "atomicWeight": 9.0122,
+    "groundStateConfig": "[He] 2s2",
+    "firstIonizationEnergy": 899.5
+  },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  {
+    "symbol": "B",
+    "atomicNumber": 5,
+    "fullName": "Boron",
+    "atomicWeight": 10.81,
+    "groundStateConfig": "[He] 2s2 2p1",
+    "firstIonizationEnergy": 800.6
+  },
+  {
+    "symbol": "C",
+    "atomicNumber": 6,
+    "fullName": "Carbon",
+    "atomicWeight": 12.011,
+    "groundStateConfig": "[He] 2s2 2p2",
+    "firstIonizationEnergy": 1086.5
+  },
+  {
+    "symbol": "N",
+    "atomicNumber": 7,
+    "fullName": "Nitrogen",
+    "atomicWeight": 14.007,
+    "groundStateConfig": "[He] 2s2 2p3",
+    "firstIonizationEnergy": 1402.3
+  },
+  {
+    "symbol": "O",
+    "atomicNumber": 8,
+    "fullName": "Oxygen",
+    "atomicWeight": 15.999,
+    "groundStateConfig": "[He] 2s2 2p4",
+    "firstIonizationEnergy": 1313.9
+  },
+  {
+    "symbol": "F",
+    "atomicNumber": 9,
+    "fullName": "Fluorine",
+    "atomicWeight": 18.998,
+    "groundStateConfig": "[He] 2s2 2p5",
+    "firstIonizationEnergy": 1681.0
+  },
+  {
+    "symbol": "Ne",
+    "atomicNumber": 10,
+    "fullName": "Neon",
+    "atomicWeight": 20.180,
+    "groundStateConfig": "[He] 2s2 2p6",
+    "firstIonizationEnergy": 2080.7
+  },
+  {
+    "symbol": "Na",
+    "atomicNumber": 11,
+    "fullName": "Sodium",
+    "atomicWeight": 22.990,
+    "groundStateConfig": "[Ne] 3s1",
+    "firstIonizationEnergy": 495.8
+  },
+  {
+    "symbol": "Mg",
+    "atomicNumber": 12,
+    "fullName": "Magnesium",
+    "atomicWeight": 24.305,
+    "groundStateConfig": "[Ne] 3s2",
+    "firstIonizationEnergy": 737.7
+  },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  {
+    "symbol": "Al",
+    "atomicNumber": 13,
+    "fullName": "Aluminum",
+    "atomicWeight": 26.982,
+    "groundStateConfig": "[Ne] 3s2 3p1",
+    "firstIonizationEnergy": 577.5
+  },
+  {
+    "symbol": "Si",
+    "atomicNumber": 14,
+    "fullName": "Silicon",
+    "atomicWeight": 28.085,
+    "groundStateConfig": "[Ne] 3s2 3p2",
+    "firstIonizationEnergy": 786.5
+  },
+  {
+    "symbol": "P",
+    "atomicNumber": 15,
+    "fullName": "Phosphorus",
+    "atomicWeight": 30.974,
+    "groundStateConfig": "[Ne] 3s2 3p3",
+    "firstIonizationEnergy": 1011.8
+  },
+  {
+    "symbol": "S",
+    "atomicNumber": 16,
+    "fullName": "Sulfur",
+    "atomicWeight": 32.06,
+    "groundStateConfig": "[Ne] 3s2 3p4",
+    "firstIonizationEnergy": 999.6
+  },
+  {
+    "symbol": "Cl",
+    "atomicNumber": 17,
+    "fullName": "Chlorine",
+    "atomicWeight": 35.45,
+    "groundStateConfig": "[Ne] 3s2 3p5",
+    "firstIonizationEnergy": 1251.2
+  },
+  {
+    "symbol": "Ar",
+    "atomicNumber": 18,
+    "fullName": "Argon",
+    "atomicWeight": 39.948,
+    "groundStateConfig": "[Ne] 3s2 3p6",
+    "firstIonizationEnergy": 1520.6
+  },
+  {
+    "symbol": "K",
+    "atomicNumber": 19,
+    "fullName": "Potassium",
+    "atomicWeight": 39.098,
+    "groundStateConfig": "[Ar] 4s1",
+    "firstIonizationEnergy": 418.8
+  },
+  {
+    "symbol": "Ca",
+    "atomicNumber": 20,
+    "fullName": "Calcium",
+    "atomicWeight": 40.078,
+    "groundStateConfig": "[Ar] 4s2",
+    "firstIonizationEnergy": 589.8
+  },
+  {
+    "symbol": "Sc",
+    "atomicNumber": 21,
+    "fullName": "Scandium",
+    "atomicWeight": 44.956,
+    "groundStateConfig": "[Ar] 3d1 4s2",
+    "firstIonizationEnergy": 633.1
+  },
+  {
+    "symbol": "Ti",
+    "atomicNumber": 22,
+    "fullName": "Titanium",
+    "atomicWeight": 47.867,
+    "groundStateConfig": "[Ar] 3d2 4s2",
+    "firstIonizationEnergy": 658.8
+  },
+  {
+    "symbol": "V",
+    "atomicNumber": 23,
+    "fullName": "Vanadium",
+    "atomicWeight": 50.942,
+    "groundStateConfig": "[Ar] 3d3 4s2",
+    "firstIonizationEnergy": 650.9
+  },
+  {
+    "symbol": "Cr",
+    "atomicNumber": 24,
+    "fullName": "Chromium",
+    "atomicWeight": 51.996,
+    "groundStateConfig": "[Ar] 3d5 4s1",
+    "firstIonizationEnergy": 652.9
+  },
+  {
+    "symbol": "Mn",
+    "atomicNumber": 25,
+    "fullName": "Manganese",
+    "atomicWeight": 54.938,
+    "groundStateConfig": "[Ar] 3d5 4s2",
+    "firstIonizationEnergy": 717.3
+  },
+  {
+    "symbol": "Fe",
+    "atomicNumber": 26,
+    "fullName": "Iron",
+    "atomicWeight": 55.845,
+    "groundStateConfig": "[Ar] 3d6 4s2",
+    "firstIonizationEnergy": 762.5
+  },
+  {
+    "symbol": "Co",
+    "atomicNumber": 27,
+    "fullName": "Cobalt",
+    "atomicWeight": 58.933,
+    "groundStateConfig": "[Ar] 3d7 4s2",
+    "firstIonizationEnergy": 758.4
+  },
+  {
+    "symbol": "Ni",
+    "atomicNumber": 28,
+    "fullName": "Nickel",
+    "atomicWeight": 58.693,
+    "groundStateConfig": "[Ar] 3d8 4s2",
+    "firstIonizationEnergy": 737.1
+  },
+  {
+    "symbol": "Cu",
+    "atomicNumber": 29,
+    "fullName": "Copper",
+    "atomicWeight": 63.546,
+    "groundStateConfig": "[Ar] 3d10 4s1",
+    "firstIonizationEnergy": 745.5
+  },
+  {
+    "symbol": "Zn",
+    "atomicNumber": 30,
+    "fullName": "Zinc",
+    "atomicWeight": 65.38,
+    "groundStateConfig": "[Ar] 3d10 4s2",
+    "firstIonizationEnergy": 906.4
+  },
+  {
+    "symbol": "Ga",
+    "atomicNumber": 31,
+    "fullName": "Gallium",
+    "atomicWeight": 69.723,
+    "groundStateConfig": "[Ar] 3d10 4s2 4p1",
+    "firstIonizationEnergy": 578.8
+  },
+  {
+    "symbol": "Ge",
+    "atomicNumber": 32,
+    "fullName": "Germanium",
+    "atomicWeight": 72.63,
+    "groundStateConfig": "[Ar] 3d10 4s2 4p2",
+    "firstIonizationEnergy": 761.2
+  },
+  {
+    "symbol": "As",
+    "atomicNumber": 33,
+    "fullName": "Arsenic",
+    "atomicWeight": 74.922,
+    "groundStateConfig": "[Ar] 3d10 4s2 4p3",
+    "firstIonizationEnergy": 947.0
+  },
+  {
+    "symbol": "Se",
+    "atomicNumber": 34,
+    "fullName": "Selenium",
+    "atomicWeight": 78.971,
+    "groundStateConfig": "[Ar] 3d10 4s2 4p4",
+    "firstIonizationEnergy": 941.0
+  },
+  {
+    "symbol": "Br",
+    "atomicNumber": 35,
+    "fullName": "Bromine",
+    "atomicWeight": 79.904,
+    "groundStateConfig": "[Ar] 3d10 4s2 4p5",
+    "firstIonizationEnergy": 1140.0
+  },
+  {
+    "symbol": "Kr",
+    "atomicNumber": 36,
+    "fullName": "Krypton",
+    "atomicWeight": 83.798,
+    "groundStateConfig": "[Kr] 4s2 4p6",
+    "firstIonizationEnergy": 1351.2
+  },
+  {
+    "symbol": "Rb",
+    "atomicNumber": 37,
+    "fullName": "Rubidium",
+    "atomicWeight": 85.468,
+    "groundStateConfig": "[Kr] 5s1",
+    "firstIonizationEnergy": 403.0
+  },
+  {
+    "symbol": "Sr",
+    "atomicNumber": 38,
+    "fullName": "Strontium",
+    "atomicWeight": 87.62,
+    "groundStateConfig": "[Kr] 5s2",
+    "firstIonizationEnergy": 549.5
+  },
+  {
+    "symbol": "Y",
+    "atomicNumber": 39,
+    "fullName": "Yttrium",
+    "atomicWeight": 88.906,
+    "groundStateConfig": "[Kr] 4d1 5s2",
+    "firstIonizationEnergy": 615.9
+  },
+  {
+    "symbol": "Zr",
+    "atomicNumber": 40,
+    "fullName": "Zirconium",
+    "atomicWeight": 91.224,
+    "groundStateConfig": "[Kr] 4d2 5s2",
+    "firstIonizationEnergy": 660.1
+  },
+  {
+    "symbol": "Nb",
+    "atomicNumber": 41,
+    "fullName": "Niobium",
+    "atomicWeight": 92.906,
+    "groundStateConfig": "[Kr] 4d4 5s1",
+    "firstIonizationEnergy": 642.6
+  },
+  {
+    "symbol": "Mo",
+    "atomicNumber": 42,
+    "fullName": "Molybdenum",
+    "atomicWeight": 95.95,
+    "groundStateConfig": "[Kr] 4d5 5s1",
+    "firstIonizationEnergy": 684.3
+  },
+  {
+    "symbol": "Tc",
+    "atomicNumber": 43,
+    "fullName": "Technetium",
+    "atomicWeight": 98,
+    "groundStateConfig": "[Kr] 4d5 5s2",
+    "firstIonizationEnergy": 702.6
+  },
+  {
+    "symbol": "Ru",
+    "atomicNumber": 44,
+    "fullName": "Ruthenium",
+    "atomicWeight": 101.07,
+    "groundStateConfig": "[Kr] 4d7 5s1",
+    "firstIonizationEnergy": 736.0
+  },
+  {
+    "symbol": "Rh",
+    "atomicNumber": 45,
+    "fullName": "Rhodium",
+    "atomicWeight": 102.91,
+    "groundStateConfig": "[Kr] 4d8 5s1",
+    "firstIonizationEnergy": 719.9
+  },
+  {
+    "symbol": "Pd",
+    "atomicNumber": 46,
+    "fullName": "Palladium",
+    "atomicWeight": 106.42,
+    "groundStateConfig": "[Kr] 4d10",
+    "firstIonizationEnergy": 804.4
+  },
+  {
+    "symbol": "Ag",
+    "atomicNumber": 47,
+    "fullName": "Silver",
+    "atomicWeight": 107.87,
+    "groundStateConfig": "[Kr] 4d10 5s1",
+    "firstIonizationEnergy": 731.0
+  },
+  {
+    "symbol": "Cd",
+    "atomicNumber": 48,
+    "fullName": "Cadmium",
+    "atomicWeight": 112.41,
+    "groundStateConfig": "[Kr] 4d10 5s2",
+    "firstIonizationEnergy": 867.8
+  },
+  {
+    "symbol": "In",
+    "atomicNumber": 49,
+    "fullName": "Indium",
+    "atomicWeight": 114.82,
+    "groundStateConfig": "[Kr] 4d10 5s2 5p1",
+    "firstIonizationEnergy": 558.3
+  },
+  {
+    "symbol": "Sn",
+    "atomicNumber": 50,
+    "fullName": "Tin",
+    "atomicWeight": 118.71,
+    "groundStateConfig": "[Kr] 4d10 5s2 5p2",
+    "firstIonizationEnergy": 708.6
+  },
+  {
+    "symbol": "Sb",
+    "atomicNumber": 51,
+    "fullName": "Antimony",
+    "atomicWeight": 121.76,
+    "groundStateConfig": "[Kr] 4d10 5s2 5p3",
+    "firstIonizationEnergy": 834.0
+  },
+  {
+    "symbol": "Te",
+    "atomicNumber": 52,
+    "fullName": "Tellurium",
+    "atomicWeight": 127.60,
+    "groundStateConfig": "[Kr] 4d10 5s2 5p4",
+    "firstIonizationEnergy": 869.3
+  },
+  {
+    "symbol": "I",
+    "atomicNumber": 53,
+    "fullName": "Iodine",
+    "atomicWeight": 126.90,
+    "groundStateConfig": "[Kr] 4d10 5s2 5p5",
+    "firstIonizationEnergy": 1008.4
+  },
+  {
+    "symbol": "Xe",
+    "atomicNumber": 54,
+    "fullName": "Xenon",
+    "atomicWeight": 131.29,
+    "groundStateConfig": "[Xe] 5s2 5p6",
+    "firstIonizationEnergy": 1170.4
+  },
+  {
+    "symbol": "Cs",
+    "atomicNumber": 55,
+    "fullName": "Cesium",
+    "atomicWeight": 132.91,
+    "groundStateConfig": "[Xe] 6s1",
+    "firstIonizationEnergy": 375.7
+  },
+  {
+    "symbol": "Ba",
+    "atomicNumber": 56,
+    "fullName": "Barium",
+    "atomicWeight": 137.33,
+    "groundStateConfig": "[Xe] 6s2",
+    "firstIonizationEnergy": 502.9
+  },
+  {
+    "symbol": "La",
+    "atomicNumber": 57,
+    "fullName": "Lanthanum",
+    "atomicWeight": 138.91,
+    "groundStateConfig": "[Xe] 5d1 6s2",
+    "firstIonizationEnergy": 538.1
+  },
+  {
+    "symbol": "Hf",
+    "atomicNumber": 72,
+    "fullName": "Hafnium",
+    "atomicWeight": 178.49,
+    "groundStateConfig": "[Xe] 4f14 5d2 6s2",
+    "firstIonizationEnergy": 760.0
+  },
+  {
+    "symbol": "Ta",
+    "atomicNumber": 73,
+    "fullName": "Tantalum",
+    "atomicWeight": 180.95,
+    "groundStateConfig": "[Xe] 4f14 5d3 6s2",
+    "firstIonizationEnergy": 761.0
+  },
+  {
+    "symbol": "W",
+    "atomicNumber": 74,
+    "fullName": "Tungsten",
+    "atomicWeight": 183.84,
+    "groundStateConfig": "[Xe] 4f14 5d4 6s2",
+    "firstIonizationEnergy": 770.0
+  },
+  {
+    "symbol": "Re",
+    "atomicNumber": 75,
+    "fullName": "Rhenium",
+    "atomicWeight": 186.21,
+    "groundStateConfig": "[Xe] 4f14 5d5 6s2",
+    "firstIonizationEnergy": 759.0
+  },
+  {
+    "symbol": "Os",
+    "atomicNumber": 76,
+    "fullName": "Osmium",
+    "atomicWeight": 190.23,
+    "groundStateConfig": "[Xe] 4f14 5d6 6s2",
+    "firstIonizationEnergy": 810.0
+  },
+  {
+    "symbol": "Ir",
+    "atomicNumber": 77,
+    "fullName": "Iridium",
+    "atomicWeight": 192.22,
+    "groundStateConfig": "[Xe] 4f14 5d7 6s2",
+    "firstIonizationEnergy": 864.0
+  },
+  {
+    "symbol": "Pt",
+    "atomicNumber": 78,
+    "fullName": "Platinum",
+    "atomicWeight": 195.08,
+    "groundStateConfig": "[Xe] 4f14 5d9 6s1",
+    "firstIonizationEnergy": 878.0
+  },
+  {
+    "symbol": "Au",
+    "atomicNumber": 79,
+    "fullName": "Gold",
+    "atomicWeight": 196.97,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s1",
+    "firstIonizationEnergy": 890.0
+  },
+  {
+    "symbol": "Hg",
+    "atomicNumber": 80,
+    "fullName": "Mercury",
+    "atomicWeight": 200.59,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s2",
+    "firstIonizationEnergy": 1007.1
+  },
+  {
+    "symbol": "Tl",
+    "atomicNumber": 81,
+    "fullName": "Thallium",
+    "atomicWeight": 204.38,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s2 6p1",
+    "firstIonizationEnergy": 589.4
+  },
+  {
+    "symbol": "Pb",
+    "atomicNumber": 82,
+    "fullName": "Lead",
+    "atomicWeight": 207.2,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s2 6p2",
+    "firstIonizationEnergy": 715.6
+  },
+  {
+    "symbol": "Bi",
+    "atomicNumber": 83,
+    "fullName": "Bismuth",
+    "atomicWeight": 208.98,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s2 6p3",
+    "firstIonizationEnergy": 703.1
+  },
+  {
+    "symbol": "Po",
+    "atomicNumber": 84,
+    "fullName": "Polonium",
+    "atomicWeight": 209,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s2 6p4",
+    "firstIonizationEnergy": 812.0
+  },
+  {
+    "symbol": "At",
+    "atomicNumber": 85,
+    "fullName": "Astatine",
+    "atomicWeight": 210,
+    "groundStateConfig": "[Xe] 4f14 5d10 6s2 6p5",
+    "firstIonizationEnergy": 917.0
+  },
+  {
+    "symbol": "Rn",
+    "atomicNumber": 86,
+    "fullName": "Radon",
+    "atomicWeight": 222,
+    "groundStateConfig": "[Rn] 6s2 6p6",
+    "firstIonizationEnergy": 1037.0
+  },
+  {
+    "symbol": "Fr",
+    "atomicNumber": 87,
+    "fullName": "Francium",
+    "atomicWeight": 223,
+    "groundStateConfig": "[Rn] 7s1",
+    "firstIonizationEnergy": 380.0
+  },
+  {
+    "symbol": "Ra",
+    "atomicNumber": 88,
+    "fullName": "Radium",
+    "atomicWeight": 226,
+    "groundStateConfig": "[Rn] 7s2",
+    "firstIonizationEnergy": 509.3
+  },
+  {
+    "symbol": "Ac",
+    "atomicNumber": 89,
+    "fullName": "Actinium",
+    "atomicWeight": 227,
+    "groundStateConfig": "[Rn] 6d1 7s2",
+    "firstIonizationEnergy": 497.0
+  },
+  {
+    "symbol": "Rf",
+    "atomicNumber": 104,
+    "fullName": "Rutherfordium",
+    "atomicWeight": 267,
+    "groundStateConfig": "[Rn] 5f14 6d2 7s2",
+    "firstIonizationEnergy": 620.0
+  },
+  {
+    "symbol": "Db",
+    "atomicNumber": 105,
+    "fullName": "Dubnium",
+    "atomicWeight": 268,
+    "groundStateConfig": "[Rn] 5f14 6d3 7s2",
+    "firstIonizationEnergy": 630.0
+  },
+  {
+    "symbol": "Sg",
+    "atomicNumber": 106,
+    "fullName": "Seaborgium",
+    "atomicWeight": 271,
+    "groundStateConfig": "[Rn] 5f14 6d4 7s2",
+    "firstIonizationEnergy": 650.0
+  },
+  {
+    "symbol": "Bh",
+    "atomicNumber": 107,
+    "fullName": "Bohrium",
+    "atomicWeight": 272,
+    "groundStateConfig": "[Rn] 5f14 6d5 7s2",
+    "firstIonizationEnergy": 740.0
+  },
+  {
+    "symbol": "Hs",
+    "atomicNumber": 108,
+    "fullName": "Hassium",
+    "atomicWeight": 277,
+    "groundStateConfig": "[Rn] 5f14 6d6 7s2",
+    "firstIonizationEnergy": 750.0
+  },
+  {
+    "symbol": "Mt",
+    "atomicNumber": 109,
+    "fullName": "Meitnerium",
+    "atomicWeight": 276,
+    "groundStateConfig": "[Rn] 5f14 6d7 7s2",
+    "firstIonizationEnergy": 790.0
+  },
+  {
+    "symbol": "Ds",
+    "atomicNumber": 110,
+    "fullName": "Darmstadtium",
+    "atomicWeight": 281,
+    "groundStateConfig": "[Rn] 5f14 6d8 7s2",
+    "firstIonizationEnergy": 810.0
+  },
+  {
+    "symbol": "Rg",
+    "atomicNumber": 111,
+    "fullName": "Roentgenium",
+    "atomicWeight": 280,
+    "groundStateConfig": "[Rn] 5f14 6d9 7s2",
+    "firstIonizationEnergy": 820.0
+  },
+  {
+    "symbol": "Cn",
+    "atomicNumber": 112,
+    "fullName": "Copernicium",
+    "atomicWeight": 285,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2",
+    "firstIonizationEnergy": 830.0
+  },
+  {
+    "symbol": "Nh",
+    "atomicNumber": 113,
+    "fullName": "Nihonium",
+    "atomicWeight": 286,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2 7p1",
+    "firstIonizationEnergy": 840.0
+  },
+  {
+    "symbol": "Fl",
+    "atomicNumber": 114,
+    "fullName": "Flerovium",
+    "atomicWeight": 289,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2 7p2",
+    "firstIonizationEnergy": 850.0
+  },
+  {
+    "symbol": "Mc",
+    "atomicNumber": 115,
+    "fullName": "Moscovium",
+    "atomicWeight": 290,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2 7p3",
+    "firstIonizationEnergy": 860.0
+  },
+  {
+    "symbol": "Lv",
+    "atomicNumber": 116,
+    "fullName": "Livermorium",
+    "atomicWeight": 293,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2 7p4",
+    "firstIonizationEnergy": 990.0
+  },
+  {
+    "symbol": "Ts",
+    "atomicNumber": 117,
+    "fullName": "Tennessine",
+    "atomicWeight": 294,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2 7p5",
+    "firstIonizationEnergy": 1040.0
+  },
+  {
+    "symbol": "Og",
+    "atomicNumber": 118,
+    "fullName": "Oganesson",
+    "atomicWeight": 294,
+    "groundStateConfig": "[Rn] 5f14 6d10 7s2 7p6",
+    "firstIonizationEnergy": 1090.0
+  },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  {
+    "symbol": "Ce",
+    "atomicNumber": 58,
+    "fullName": "Cerium",
+    "atomicWeight": 140.12,
+    "groundStateConfig": "[Xe] 4f2 6s2",
+    "firstIonizationEnergy": 534.4
+  },
+  {
+    "symbol": "Pr",
+    "atomicNumber": 59,
+    "fullName": "Praseodymium",
+    "atomicWeight": 140.91,
+    "groundStateConfig": "[Xe] 4f3 6s2",
+    "firstIonizationEnergy": 527.0
+  },
+  {
+    "symbol": "Nd",
+    "atomicNumber": 60,
+    "fullName": "Neodymium",
+    "atomicWeight": 144.24,
+    "groundStateConfig": "[Xe] 4f4 6s2",
+    "firstIonizationEnergy": 530.0
+  },
+  {
+    "symbol": "Pm",
+    "atomicNumber": 61,
+    "fullName": "Promethium",
+    "atomicWeight": 145,
+    "groundStateConfig": "[Xe] 4f5 6s2",
+    "firstIonizationEnergy": 536.0
+  },
+  {
+    "symbol": "Sm",
+    "atomicNumber": 62,
+    "fullName": "Samarium",
+    "atomicWeight": 150.36,
+    "groundStateConfig": "[Xe] 4f6 6s2",
+    "firstIonizationEnergy": 543.0
+  },
+  {
+    "symbol": "Eu",
+    "atomicNumber": 63,
+    "fullName": "Europium",
+    "atomicWeight": 151.96,
+    "groundStateConfig": "[Xe] 4f7 6s2",
+    "firstIonizationEnergy": 547.0
+  },
+  {
+    "symbol": "Gd",
+    "atomicNumber": 64,
+    "fullName": "Gadolinium",
+    "atomicWeight": 157.25,
+    "groundStateConfig": "[Xe] 4f7 5d1 6s2",
+    "firstIonizationEnergy": 573.0
+  },
+  {
+    "symbol": "Tb",
+    "atomicNumber": 65,
+    "fullName": "Terbium",
+    "atomicWeight": 158.93,
+    "groundStateConfig": "[Xe] 4f9 6s2",
+    "firstIonizationEnergy": 585.0
+  },
+  {
+    "symbol": "Dy",
+    "atomicNumber": 66,
+    "fullName": "Dysprosium",
+    "atomicWeight": 162.50,
+    "groundStateConfig": "[Xe] 4f10 6s2",
+    "firstIonizationEnergy": 573.0
+  },
+  {
+    "symbol": "Ho",
+    "atomicNumber": 67,
+    "fullName": "Holmium",
+    "atomicWeight": 164.93,
+    "groundStateConfig": "[Xe] 4f11 6s2",
+    "firstIonizationEnergy": 574.0
+  },
+  {
+    "symbol": "Er",
+    "atomicNumber": 68,
+    "fullName": "Erbium",
+    "atomicWeight": 167.26,
+    "groundStateConfig": "[Xe] 4f12 6s2",
+    "firstIonizationEnergy": 589.0
+  },
+  {
+    "symbol": "Tm",
+    "atomicNumber": 69,
+    "fullName": "Thulium",
+    "atomicWeight": 168.93,
+    "groundStateConfig": "[Xe] 4f13 6s2",
+    "firstIonizationEnergy": 581.0
+  },
+  {
+    "symbol": "Yb",
+    "atomicNumber": 70,
+    "fullName": "Ytterbium",
+    "atomicWeight": 173.04,
+    "groundStateConfig": "[Xe] 4f14 6s2",
+    "firstIonizationEnergy": 603.0
+  },
+  {
+    "symbol": "Lu",
+    "atomicNumber": 71,
+    "fullName": "Lutetium",
+    "atomicWeight": 174.97,
+    "groundStateConfig": "[Xe] 4f14 5d1 6s2",
+    "firstIonizationEnergy": 558.0
+  },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" },
+  {
+    "symbol": "Th",
+    "atomicNumber": 90,
+    "fullName": "Thorium",
+    "atomicWeight": 232.04,
+    "groundStateConfig": "[Rn] 6d2 7s2",
+    "firstIonizationEnergy": 587.0
+  },
+  {
+    "symbol": "Pa",
+    "atomicNumber": 91,
+    "fullName": "Protactinium",
+    "atomicWeight": 231.04,
+    "groundStateConfig": "[Rn] 5f2 6d1 7s2",
+    "firstIonizationEnergy": 568.0
+  },
+  {
+    "symbol": "U",
+    "atomicNumber": 92,
+    "fullName": "Uranium",
+    "atomicWeight": 238.03,
+    "groundStateConfig": "[Rn] 5f3 6d1 7s2",
+    "firstIonizationEnergy": 584.7
+  },
+  {
+    "symbol": "Np",
+    "atomicNumber": 93,
+    "fullName": "Neptunium",
+    "atomicWeight": 237,
+    "groundStateConfig": "[Rn] 5f4 6d1 7s2",
+    "firstIonizationEnergy": 597.0
+  },
+  {
+    "symbol": "Pu",
+    "atomicNumber": 94,
+    "fullName": "Plutonium",
+    "atomicWeight": 244,
+    "groundStateConfig": "[Rn] 5f6 7s2",
+    "firstIonizationEnergy": 584.6
+  },
+  {
+    "symbol": "Am",
+    "atomicNumber": 95,
+    "fullName": "Americium",
+    "atomicWeight": 243,
+    "groundStateConfig": "[Rn] 5f7 7s2",
+    "firstIonizationEnergy": 578.0
+  },
+  {
+    "symbol": "Cm",
+    "atomicNumber": 96,
+    "fullName": "Curium",
+    "atomicWeight": 247,
+    "groundStateConfig": "[Rn] 5f7 6d1 7s2",
+    "firstIonizationEnergy": 581.0
+  },
+  {
+    "symbol": "Bk",
+    "atomicNumber": 97,
+    "fullName": "Berkelium",
+    "atomicWeight": 247,
+    "groundStateConfig": "[Rn] 5f9 7s2",
+    "firstIonizationEnergy": 591.0
+  },
+  {
+    "symbol": "Cf",
+    "atomicNumber": 98,
+    "fullName": "Californium",
+    "atomicWeight": 251,
+    "groundStateConfig": "[Rn] 5f10 7s2",
+    "firstIonizationEnergy": 601.0
+  },
+  {
+    "symbol": "Es",
+    "atomicNumber": 99,
+    "fullName": "Einsteinium",
+    "atomicWeight": 252,
+    "groundStateConfig": "[Rn] 5f11 7s2",
+    "firstIonizationEnergy": 612.0
+  },
+  {
+    "symbol": "Fm",
+    "atomicNumber": 100,
+    "fullName": "Fermium",
+    "atomicWeight": 257,
+    "groundStateConfig": "[Rn] 5f12 7s2",
+    "firstIonizationEnergy": 619.0
+  },
+  {
+    "symbol": "Md",
+    "atomicNumber": 101,
+    "fullName": "Mendelevium",
+    "atomicWeight": 258,
+    "groundStateConfig": "[Rn] 5f13 7s2",
+    "firstIonizationEnergy": 627.0
+  },
+  {
+    "symbol": "No",
+    "atomicNumber": 102,
+    "fullName": "Nobelium",
+    "atomicWeight": 259,
+    "groundStateConfig": "[Rn] 5f14 7s2",
+    "firstIonizationEnergy": 635.0
+  },
+  {
+    "symbol": "Lr",
+    "atomicNumber": 103,
+    "fullName": "Lawrencium",
+    "atomicWeight": 262,
+    "groundStateConfig": "[Rn] 5f14 6d1 7s2",
+    "firstIonizationEnergy": 642.0
+  },
+  { "symbol": "xx", "atomicNumber": "xx", "fullName": "xx", "atomicWeight": "xx", "groundStateConfig": "xx", "firstIonizationEnergy": "xx" }
+]
