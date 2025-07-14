@@ -15,15 +15,16 @@ body{
 .Grid_Container{
     background-color: aqua;
     display: grid;
-    grid-template-columns: repeat(12,6 vw);
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
     gap: 1rem;
     
 }
 
 #namecard{
     background-color: aliceblue;
-    grid-column: 1/span 3;
-    grid-row: span 32;
+    
+
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -33,7 +34,7 @@ body{
 #work{
     background-color: rgb(70, 156, 135);
     grid-column: span 3;
-    grid-row: span 16;
+
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -43,7 +44,7 @@ body{
 #play{
     background-color: rgb(42, 39, 156);
     grid-column: span 3;
-    grid-row: span 16;
+
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -54,7 +55,7 @@ body{
 #study{
     background-color: rgb(125, 68, 141);
     grid-column: span 3;
-    grid-row: span 16;
+
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -64,7 +65,7 @@ body{
 #exersise{
     background-color: rgb(126, 255, 180);
     grid-column: span 3;
-    grid-row: span 16;
+    
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -74,7 +75,7 @@ body{
 #Social{
     background-color: rgb(140, 201, 255);
     grid-column: span 3;
-    grid-row: span 16;
+  
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -84,7 +85,6 @@ body{
 #self_Care{
     background-color: rgb(173, 255, 167);
     grid-column: span 3;
-    grid-row: span 16;
     border-radius: 15px;
     display: flex;
     justify-content: center;
