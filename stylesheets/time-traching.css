@@ -1,92 +1,151 @@
-body{
+
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color:  hsl(226, 43%, 10%);
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+    min-height: 100vh;
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+    color: white;
 }
 
-.Grid_Container{
-    background-color: aqua;
+.Grid_Container {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1200px;
+    width: 90%;
+}
+
+#namecard {
+    grid-row: span 2;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
+
+.cards {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-icon {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    width: 4rem;
+    height: auto;
+}
+
+.inner_div {
+    position: relative;
+    background-color: hsl(235, 46%, 20%);
+    height: 80%;
+    margin-top: 2.5rem;
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.inner_div:hover {
+    background-color: hsl(235, 45%, 30%);
+}
+
+
+#work { background-color: hsl(15, 100%, 70%); }
+#play { background-color: hsl(195, 74%, 62%); }
+#study { background-color: hsl(348, 100%, 68%); }
+#exersise { background-color: hsl(145, 58%, 55%); }
+#Social { background-color: hsl(264, 64%, 52%); }
+#self_Care { background-color: hsl(43, 84%, 65%); }
+
+
+.profile {
+    padding: 2rem;
+}
+
+
+#image_pro{
+    width: 6rem;
+    height: 6rem;
+
+    border: 3px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-img {
+    height: auto;
+    width: 6rem;
+}
+
+.profile-info h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+}
+
+
+.timeframes {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.timeframe {
+    background: none;
+    border: none;
+    color: hsl(236, 100%, 87%);
+    text-align: left;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.timeframe.active {
+    color: white;
+}
+
+
+.current-hours {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0 0.5rem;
+}
+
+.previous-hours {
+    color: hsl(236, 100%, 87%);
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    .Grid_Container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
     
-}
-
-#namecard{
-    background-color: aliceblue;
+    #namecard {
+        grid-row: auto;
+    }
     
-
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#work{
-    background-color: rgb(70, 156, 135);
-    grid-column: span 3;
-
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#play{
-    background-color: rgb(42, 39, 156);
-    grid-column: span 3;
-
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#study{
-    background-color: rgb(125, 68, 141);
-    grid-column: span 3;
-
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#exersise{
-    background-color: rgb(126, 255, 180);
-    grid-column: span 3;
+    .profile {
+        display: flex;
+        align-items: center;
+    }
     
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#Social{
-    background-color: rgb(140, 201, 255);
-    grid-column: span 3;
-  
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#self_Care{
-    background-color: rgb(173, 255, 167);
-    grid-column: span 3;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .profile-info {
+        margin-left: 1rem;
+    }
+    
+    .timeframes {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .current-hours {
+        font-size: 2rem;
+    }
 }
