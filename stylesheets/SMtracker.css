@@ -1,0 +1,313 @@
+:root {
+    --background-color: hsl(230, 17%, 14%);
+    --background-color-hover: hsl(229, 22%, 29%);
+    --card-background: hsl(228, 28%, 20%);
+    --facebook: hsl(208, 92%, 53%);
+    --insta: linear-gradient(to right, hsl(37, 97%, 70%), hsl(5, 77%, 71%), hsl(329, 70%, 58%));
+    --YouTube: hsl(348, 97%, 39%);
+    --Grey-Text: hsl(230, 22%, 74%);
+    --Main-Text: hsl(0, 100%, 100%);
+    --toggle-bg: linear-gradient(to right,hsl(210, 79%, 56%), hsl(146, 68%, 55%));
+    --toggle-circle: hsl(230, 17%, 14%);
+}
+
+[data-theme="light"] {
+    --background-color: hsl(0, 100%, 100%);
+    --card-background: hsl(227, 47%, 96%);
+    --background-color-hover:hsl(231, 10%, 86%);
+    --facebook: hsl(208, 92%, 53%);
+    --insta: linear-gradient(to right, hsl(37, 97%, 70%), hsl(5, 77%, 71%), hsl(329, 70%, 58%));
+    --YouTube: hsl(348, 97%, 39%);
+    --Grey-Text: hsl(228, 12%, 44%);
+    --Main-Text: hsl(230, 17%, 14%);
+    --toggle-bg: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+    --toggle-circle: hsl(0, 0%, 100%);
+}
+
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+.headingContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#Stwich {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#Stwich p {
+    margin: 0;
+    color: var(--Main-Text);
+    font-family: "Inter";
+    font-size: 1rem;
+} 
+
+#toggleStwich {
+    position: relative;
+    display: inline-block;
+    height: 1.5rem;
+    width: 3rem;
+}
+
+#toggle {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+#toggleStwich::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--toggle-bg);
+    border-radius: 18px;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.309);
+    transition: background 0.3s ease;
+}
+
+#label {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: var(--toggle-circle);
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 50%;
+    z-index: 2;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#toggle:checked + #label {
+    transform: translateX(calc(3rem - 1.1rem - 4px));
+}
+
+
+
+#headingTitle h1{
+    color: var(--Main-Text);
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+#headingTitle p{
+    margin: 0;
+    color: var(--Grey-Text);
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+.mediaDashbord{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 0.8rem;
+    width: 100%;
+    font-family: "Inter";
+    justify-content: center;
+
+}
+
+.mediaboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--card-background);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative; 
+    padding-top: 5px; 
+    color: var(--Main-Text);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.mediaboxes:hover{
+    background-color: var(--background-color-hover);
+}
+
+.mediaboxes #imgandname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#imgandname h3{
+    color: var(--Grey-Text);
+    font-size: 0.6rem;
+}
+
+#followersnumber{
+    margin: 0;
+}
+
+.mediaboxes #imgandname img{
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0;
+}
+
+.follower{
+    margin: 0;
+    font-size: 0.7rem;
+    font-family: "Inter";
+    letter-spacing: 5px;
+    color: var(--Grey-Text);
+}
+
+.dailyvewiership{
+    margin: 0;
+    color: lime;
+    font-size: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.followersnumber{
+    margin: 0;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.mediaboxes #Facebookbg{
+    width: inherit;
+    height: 5px;
+    background-color: var(--facebook);
+}
+
+.mediaboxes #twiterbg{
+    width: inherit;
+    height: 5px;
+    background-color: var(--facebook);
+}
+
+.mediaboxes #instagram{
+    width: inherit;
+    height: 5px;
+    background: var(--insta);
+}
+
+.mediaboxes #youtube{
+    width: inherit;
+    height: 5px;
+    background-color: var(--YouTube);
+}
+
+.mediaboxes #Facebookbg,
+.mediaboxes #twiterbg,
+.mediaboxes #instagram,
+.mediaboxes #youtube {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    width: 100%; 
+    margin: 0;
+}
+
+
+
+.mediaDetailsHeading{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    color: var(--Main-Text);
+    font-family: "Inter";
+
+}
+
+.detailsGridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px; /* Limits to 4 columns */
+    margin: 0 auto;
+}
+
+.hedding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Main-Text);
+    font-family: "Inter ";
+
+}
+.hedding h3{
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--Main-Text);
+    font-family: "Inter";
+}
+
+.numbers p{
+    color: lime;
+    font-size: 0.7rem;
+}
+
+
+@media (min-width: 1024px) {
+    .detailsGridContainer {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+.mediacard {
+    background-color: var(--card-background);
+    border-radius: 4px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    min-width: 0; 
+}
+.mediacard:hover{
+    background-color: var(--background-color-hover);
+}
+
+.numbers h3 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.hedding h3 {
+    font-size: clamp(0.7rem, 1.5vw, 0.8rem);
+}
