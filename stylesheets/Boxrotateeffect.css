@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, black, grey);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: absolute;
+    background-color: antiquewhite;
+    border: 5px solid black;
+}
+
+#a { height: 55px;  width: 55px;  z-index: 10; background-color: black; }
+#b { height: 105px; width: 105px; z-index: 9;  }
+#c { height: 155px; width: 155px; z-index: 8;  }
+#d { height: 205px; width: 205px; z-index: 7;  }
+#e { height: 255px; width: 255px; z-index: 6;  }
+#f { height: 305px; width: 305px; z-index: 5;  }
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+/* Apply animation to inner boxes */
+#a, #b, #c, #d, #e, #f{
+    animation: rotate linear infinite;
+}
+
+#a { animation-duration: 5s;  }
+#b { animation-duration: 10s;  }
+#c { animation-duration: 15s;  }
+#d { animation-duration: 20s;  }
+#e { animation-duration: 25s; }
+#f { animation-duration: 30s; }
