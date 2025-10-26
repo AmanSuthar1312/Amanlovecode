@@ -19,22 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const container = document.getElementById('preodictable');
 
-            // 2. Iterate through all possible grid positions (1 to 18 columns, 1 to 10 rows)
+            
             for (let r = 1; r <= totalRows; r++) { // Loop through rows
                 for (let c = 1; c <= totalCols; c++) { // Loop through columns
                     const key = `${r}-${c}`;
-                    const elementData = elementMap.get(key); // Check if an element exists at this position
+                    const elementData = elementMap.get(key); //position
 
                     if (elementData) {
                         const {
-                            symbol, number, name, atomic_mass, block, xpos, ypos // Destructure relevant data
+                            symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary
                         } = elementData;
-                        plotelement(symbol, number, name, atomic_mass, block, xpos, ypos);
+                        plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary);
                     }else{
                         // If no element exists, create an empty placeholder cell
                         const emptyDiv = document.createElement("div");
-                        emptyDiv.className = "notactivecell"; // Apply styling for empty cells
-                        emptyDiv.style.gridColumn = c; // Position the empty cell in the grid
+                        emptyDiv.className = "notactivecell"; 
+                        emptyDiv.style.gridColumn = c; 
                         emptyDiv.style.gridRow = r;
                         container.appendChild(emptyDiv);
                     }
@@ -46,11 +46,53 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos) {
+function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary) {
     const container = document.getElementById('preodictable');
     const divelement = document.createElement("div"); // Create the element's container div
+    // Apply CSS class based on 'block'
 
-    // Apply CSS class based on 'block' for specific styling (colors etc.)
+    // Add click event listener to display element details
+ 
+    divelement.addEventListener("click", function() {
+        const elementcard =document.getElementById("elementCard");
+        elementcard.innerHTML="";
+        const h2  =document.createElement("h2");
+        h2.textContent=number;
+        h2.classList.add("number");
+        const h1= document.createElement("h1");
+        h1.textContent = symbol;
+        const nameEl = document.createElement("h2");
+        nameEl.textContent = name;
+        nameEl.classList.add("name");
+        const atomicMassEl = document.createElement("p");
+        atomicMassEl.textContent = atomic_mass;
+        atomicMassEl.classList.add("atomicMass");
+        const electronConfigEl = document.createElement("h5");
+        electronConfigEl.textContent = electron_configuration;
+        const summaryEl = document.createElement("p");
+        summaryEl.textContent = summary;
+        summaryEl.classList.add("summary");
+
+        elementcard.appendChild(h2);
+        elementcard.appendChild(h1);
+        elementcard.appendChild(nameEl);
+        elementcard.appendChild(atomicMassEl);
+        elementcard.appendChild(electronConfigEl);
+        elementcard.appendChild(summaryEl);
+
+        // Set background color of card based on block
+        
+        if (block === "s") {
+            elementcard.style.backgroundColor = "var(--Sblock-color)";
+        } else if (block === "p") {
+            elementcard.style.backgroundColor = "var(--Pblock-color)";
+        } else if (block === "d") {
+            elementcard.style.backgroundColor = "var(--Dblock-color)";
+        } else if (block === "f") {
+            elementcard.style.backgroundColor = "var(--Fblock-color)";
+        }
+    });
+
     if (block === "s") {
         divelement.className = "sblock";
     } else if (block === "p") {
@@ -59,7 +101,6 @@ function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos) {
         divelement.className = "dblock";
     } else if (block === "f") {
         divelement.className = "fblock";
-        console.log(block);
     }
 
     // Set the element's position within the CSS Grid
