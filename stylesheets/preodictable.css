@@ -100,6 +100,7 @@ body{
     min-height: 70vh;
     border-radius: 15px;
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.763);
+
 }
 
 .summary{
@@ -144,6 +145,14 @@ body{
     font-family: "space_go";
 
 }
+
+/* .element-image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+} */
+
 #preodictable{
     display: grid;
     grid-template-columns: repeat(18,2.9rem);

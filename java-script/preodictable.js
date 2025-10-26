@@ -27,9 +27,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     if (elementData) {
                         const {
-                            symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary
+                            symbol,
+                            number,
+                            name,
+                            atomic_mass,
+                            block,
+                            xpos,
+                            ypos,
+                            electron_configuration,
+                            summary,
+                            image
                         } = elementData;
-                        plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary);
+                        plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary, image?.url);
                     }else{
                         // If no element exists, create an empty placeholder cell
                         const emptyDiv = document.createElement("div");
@@ -46,11 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary) {
+function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electron_configuration,summary,imageUrl) {
     const container = document.getElementById('preodictable');
     const divelement = document.createElement("div"); // Create the element's container div
-    // Apply CSS class based on 'block'
-
+    
     // Add click event listener to display element details
  
     divelement.addEventListener("click", function() {
@@ -72,6 +80,12 @@ function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electr
         const summaryEl = document.createElement("p");
         summaryEl.textContent = summary;
         summaryEl.classList.add("summary");
+        // const img = document.createElement("img");
+        // img.src = imageUrl;
+        // img.alt = `${name} representation`;
+        // img.classList.add("element-image");
+        
+
 
         elementcard.appendChild(h2);
         elementcard.appendChild(h1);
@@ -79,6 +93,8 @@ function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electr
         elementcard.appendChild(atomicMassEl);
         elementcard.appendChild(electronConfigEl);
         elementcard.appendChild(summaryEl);
+        // elementcard.appendChild(img);
+
 
         // Set background color of card based on block
         
@@ -122,4 +138,6 @@ function plotelement(symbol, number, name, atomic_mass, block, xpos, ypos,electr
     divelement.appendChild(h4);
 
     container.appendChild(divelement); // Add the complete element div to the main grid container
+    
 }
+
