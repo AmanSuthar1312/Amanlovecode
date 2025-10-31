@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "nemu";
+    src: url(../fonts/neue.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(12, 12, 12);
+    
+}
+
+.left, .right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: width 0.7s ease,font-size 0.7s ease;
+}
+
+.left,.right{
+    color: white;
+    font-size: 15rem;
+    font-family: "nemu";
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+
+.left{
+    background-image: url(../pics/Backgrounds/animeBackground.jpg);
+}
+
+.left button, .right button{
+    margin-top: 2rem;
+    padding: 15px 70px;
+    font-size: 18px;
+    font-family: "nemu";
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+}
+
+.left button:hover, .right button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.right{
+    background-image: url(../pics/Backgrounds/test5back.jpg);
+}
+
+
+body.left-hovered .right {
+    filter: blur(10px);
+    transition: filter 0.7s ease;
+}
+
+
+body.right-hovered .left {
+    filter: blur(10px);
+    transition: filter 0.7s ease;
+}
+
+.left:hover,.right:hover{
+    width: 70%;
+    font-size: 20rem;
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'statics';
+    src: url('../fonts/static/DMSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'inter';
+    src: url('../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
+}
+
+:root{
+    --background-color: #4A5E83;
+    --loginwin-color: #384E77;
+    --quicklogin-color: #18314F;  
+    --accent-color: #0D0630;          
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--loginwin-color);
+}
+
+.loginwin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: var(--quicklogin-color);
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.quicklogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem;
+    height: 45vh;
+    background-color: var(--accent-color);
+    width: fit-content;
+    border-radius: 5px;
+    
+}
+
+.quicklogin button{
+    padding: 0.7rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.1rem;
+    min-width: 20rem;
+    font-family: 'statics';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+
+}
+.quicklogin h2{
+    margin: 0.5rem;
+
+}
+.quicklogin img{
+    height: 25px;
+}
